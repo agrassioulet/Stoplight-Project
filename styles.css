@@ -1,0 +1,50 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin: 100px auto;
+}
+
+#redfire {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#orangefire {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+
+#greenfire {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+
+#redfire[state="active"] {
+    background-color: red;
+}
+
+#redfire[state="inactive"] {
+    background-color: rgb(81, 0, 0);
+}
+
+
+#greenfire[state="active"] {
+    background-color: rgb(0, 215, 0);
+}
+
+#greenfire[state="inactive"] {
+    background-color: rgb(0, 46, 0);
+}
+
+#orangefire[state="active"] {
+    background-color: orange;
+}
+
+#orangefire[state="inactive"] {
+    background-color: rgb(116, 75, 0);
+}
